@@ -14,7 +14,7 @@ class App extends Component {
   }
   componentDidMount() {
     //Fetch data from api
-    fetch(`http://api.openweathermap.org/data/2.5/forecast?q=London&units=metric&appid=${key}`)
+    fetch(`https://api.openweathermap.org/data/2.5/forecast?q=London&units=metric&appid=${key}`)
       .then(response => {
         return response.json();
       }).then(resp => {
