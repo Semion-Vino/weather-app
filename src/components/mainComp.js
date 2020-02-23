@@ -11,7 +11,8 @@ const Weather = (props) => {
           <h5 className="card-title">London's Forecast For Tomorrow at 09:00-12:00</h5>
           <h1 className="display-1">{props.temperature} °C</h1>
           <p className='display-4'>{props.description}</p>
-          <img width='100px' height='100px' src={`https://openweathermap.org/img/wn/${props.icon}.png`} alt="" />
+          <img width='80px' height='80px' src={`https://openweathermap.org/img/wn/${props.icon}.png`} alt="" />
+
 
         </div>
         <div className="card-footer text-muted">
